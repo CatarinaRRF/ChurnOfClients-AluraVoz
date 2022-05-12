@@ -39,13 +39,12 @@ The data was obtained through the company's API and we were asked to analyze it 
 
 ## Featured Notebooks/Analysis/Deliverables
 * [Initial_Treatment of the Data](https://github.com/CatarinaRRF/ChurnOfClients-AluraVoz/blob/main/data_analises/churn_clients_initial_treatment.ipynb)
-`* [Notebook/Markdown/Slide DeckTitle](link)
-* [Blog Post](link)`
+* _[Notebook/Markdown/Slide DeckTitle](link)_
 
 
 ## Contributing DSWG Members
 
-**Alura instructor's
+* **Alura instructor's**
 
 ## Contact
 
