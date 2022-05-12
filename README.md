@@ -1,5 +1,4 @@
 # Churn of Clients from Alura Voz
-
 This project is a part of the [Challenge Data-Science 1ª Edição](https://www.alura.com.br/challenges?host=https://cursos.alura.com.br) at the brazilian platform for technology courses [Alura](https://www.alura.com.br/).  Other Data Science projects can be found at the [main GitHub](https://github.com/CatarinaRRF).
 
 #### -- Project Status: [Active]
@@ -44,3 +43,4 @@ The data was obtained through the company's API and we were asked to analyze it 
 ## Contact
 
 * Feel free to contact me with any questions or if you are interested in contributing!
+* #alurachallengedatascience1
