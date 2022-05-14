@@ -9,7 +9,6 @@ The purpose of this project is aims to identify the Customer Evasion Rate, from 
 ### Methods Used
 * Inferential Statistics
 * Data Visualization
-* Predictive Modeling
 
 ### Technologies 
 * Python
