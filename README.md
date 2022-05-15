@@ -36,7 +36,7 @@ The data was obtained through the company's API and we were asked to analyze it 
 5. Follow setup [instructions](Link to file)
 
 ## Featured Notebooks/Analysis/Deliverables
-* [Initial_Treatment of the Data](https://github.com/CatarinaRRF/ChurnOfClients-AluraVoz/blob/main/data_analises/churn_clients_initial_treatment.ipynb)
+* [Analysis Report I - Data processing.ipynb](https://github.com/CatarinaRRF/ChurnOfClients-AluraVoz/blob/main/data_analises/churn_clients_initial_treatment.ipynb)
 * _[Notebook/Markdown/Slide DeckTitle](link)_
 
 ## Contact
