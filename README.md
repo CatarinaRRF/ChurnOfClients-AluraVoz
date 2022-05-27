@@ -4,16 +4,18 @@ This project is a part of the [Challenge Data-Science 1ª Edição](https://www.
 #### -- Project Status: [Active]
 
 ## Project Intro/Objective
-The purpose of this project is aims to identify the Customer Evasion Rate, from the telecommunications operator Alura Voz, in order to reduce it.
+The purpose of this project aims to identify the Customer Evasion Rate, from the telecommunications operator Alura Voz, in order to reduce it.
 
 ### Methods Used
 * Inferential Statistics
 * Data Visualization
+* Machine Learning
 
 ### Technologies 
 * Python
-* Pandas, jupyter.
-* Nunphy
+* Google Colab
+* Python libraries: Pandas, Nunphy, matplot.lib, seaborn
+* SKLearn
 
 ## Project Description
 
@@ -32,12 +34,12 @@ The data was obtained through the company's API and we were asked to analyze it 
 
 1. Clone this repo (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/)).
 2. Raw Data can be found [here](https://github.com/CatarinaRRF/ChurnOfClients-AluraVoz/blob/main/raw_data.json).  
-3. Data processing/transformation scripts are being kept [here](https://github.com/CatarinaRRF/ChurnOfClients-AluraVoz/tree/main/data_analises)
-5. Follow setup [instructions](Link to file)
+3. Data processing/notbooks are being kept [here](https://github.com/CatarinaRRF/ChurnOfClients-AluraVoz/tree/main/data_analises)
+5. Follow setup [instructions]([Link to file](https://colab.research.google.com/#))
 
 ## Featured Notebooks/Analysis/Deliverables
 * [Analysis Report I - Data processing.ipynb](https://github.com/CatarinaRRF/ChurnOfClients-AluraVoz/blob/main/data_analises/churn_clients_initial_treatment.ipynb)
-* _[Notebook/Markdown/Slide DeckTitle](link)_
+* [Analysis Report II - Exploratory Review](https://github.com/CatarinaRRF/ChurnOfClients-AluraVoz/blob/main/data_analises/Analysis_Report_II_Exploratory_Review.ipynb)
 
 ## Contact
 
