@@ -38,7 +38,7 @@ The data was obtained through the company's API and we were asked to analyze it 
 5. Follow setup [instructions]([Link to file](https://colab.research.google.com/#))
 
 ## Featured Notebooks/Analysis/Deliverables
-* [Analysis Report I - Data processing.ipynb](https://github.com/CatarinaRRF/ChurnOfClients-AluraVoz/blob/main/data_analises/churn_clients_initial_treatment.ipynb)
+* [Analysis Report I - Data processing.ipynb](https://github.com/CatarinaRRF/Churn_Alura_Voz/blob/main/Data_Analysis/%20Analysis_Report_I_Data_processing.ipynb)
 * [Analysis Report II - Exploratory Review](https://github.com/CatarinaRRF/ChurnOfClients-AluraVoz/blob/main/data_analises/Analysis_Report_II_Exploratory_Review.ipynb)
 
 ## Contact
