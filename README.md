@@ -1,7 +1,7 @@
 # Churn from Alura Voz
 This project is a part of the [Challenge Data-Science 1ª Edição](https://www.alura.com.br/challenges?host=https://cursos.alura.com.br) at the brazilian platform for technology courses [Alura](https://www.alura.com.br/).  Other Data Science projects can be found at the [main GitHub](https://github.com/CatarinaRRF).
 
-#### -- Project Status: [Active]
+![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
 
 ## Project Intro/Objective
 The purpose of this project aims to identify the Customer Evasion Rate, from the telecommunications operator Alura Voz, in order to reduce it.
