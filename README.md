@@ -146,9 +146,7 @@ Os seguintes passos realizados para a criação do modelo:
 * <b>Criando Dummy Classifier:</b> Para poder realmente entender e melhorar o desempenho do nosso modelo, primeiro precisamos estabelecer uma linha de base para os dados que temos.
 * Foram treinados três modelos com diferentes algoritmos para identificar o que melhor se enquadra para os dados usados, foram eles: <b>SVC</b>, <b>Árvore de decisão</b> e <b>Random Forest</b>.
 * Após a comparação foi definido que o modelo de Random Forest teve melhor desempenho.
-* <b>Otimizando o modelo Random Forest</b> utilizando o método RandomizedSearchCV, e após encontrar os melhores parâmetros utilizando atributo .best_params_ criar um novo modelo melhorado.
-
-As seguintes hipóteses foram determinadas a partir do modelo: 
+* <b>Otimizando o modelo Random Forest</b> utilizando o método RandomizedSearchCV, e após encontrar os melhores parâmetros utilizando atributo .best_params_ criar um novo modelo melhorado. 
 
 ### <i>📡 Dashboard</i>
 
