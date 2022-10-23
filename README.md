@@ -1,11 +1,9 @@
-> <B>⚠️ Esse README ainda esta sob construção</B>
-
 > <B>⚠️ Don't speak Portuguese? access the <a href=''>EN version</a></B>
 
 <h1 align="center">
 <h1 align="center">
   <br>
-  <img src="https://github.com/CatarinaRRF/Challenge-Alura-Cash-19-08-22/blob/main/media/logo_alura_cash.png" alt="logo">
+  <img src="https://camo.githubusercontent.com/aa692eada954179409fa3b8ab82fcac93f680effe075a086b1c523966e044f9e/68747470733a2f2f692e696d6775722e636f6d2f6a6e376b6d386f2e706e67" alt="logo">
 </h1>
 
 <h3 align="center">Challenge Dados 1° Edição - Alura Voz</h3>
@@ -65,7 +63,7 @@ Aqui se encontra resumido o que foi feito durante cada etapa
 * Existem inconsistencias em Churn com números vazios, esses dados foram removidos pois, como variavel target, precisa ser o mais representativo da população possivel.
 * Existem inconsistencias em Cobrança total é do tipo object e deveria ser int. 
 
-Em clonclusão, será necessário fazer uma análise gráfica para entender quais as variáveis que são relacionadas com o churn para que a equipe de vendas tenha uma noção do cenário atual, e também para que seja possivél entender de uma forma mais clara os dados e facilite a formação de possíveis hipóteses do que está acontecendo com os clientes. Planeja-se então, fazer uma análise estatística dos dados, verificar os tipos de dados que temos, gerar gráficos de distribuição de dados binários ou categóricos, plot de Boxplots para detecção de outliers e matriz de correlação. Ou seja, uma Visualização dos dados.
+Em conclusão, será necessário fazer uma análise gráfica para entender quais as variáveis que são relacionadas com o churn para que a equipe de vendas tenha uma noção do cenário atual, e também para que seja possivél entender de uma forma mais clara os dados e facilite a formação de possíveis hipóteses do que está acontecendo com os clientes. Planeja-se então, fazer uma análise estatística dos dados, verificar os tipos de dados que temos, gerar gráficos de distribuição de dados binários ou categóricos, plot de Boxplots para detecção de outliers e matriz de correlação. Ou seja, uma Visualização dos dados.
 
 ### <i>📡 Análise Exploratória de Dados</i>
 <p align="justify">A <b>análise exploratória de dados (EDA)</b> tem como intenção a analise e investigação dos conjuntos de dados e resumir suas principais características, geralmente usando métodos de visualização de dados. Deste modo, este relatório abordará o EDA a partir de <b>3 hipótesis principais</b>, formadas a partir de uma matrx de correlação, e a visualização de dados como direcionadores para a análise. As Hipoteses criadas são:<br>
@@ -97,24 +95,23 @@ Alem disso, foi analisado as informações referentes ao perfil dos clientes. Is
 <p align="justify">No histograma de gastos é possivel perceber que maioria dos clientes pagam entre R$ 0,00 - R$ 20,00 na cobrança mensal e que pagaram entre R$ 0,00 - R$ 50,00 na cobrança anual, o que para um modelo baseado em pagamentos recorrentes essa cobrança anual esta muito baixa e já indica um problema no tenure (tempo de contrato). Além disso, no segundo gráfico podemos inferir que a hipótese 1 é verdadeira, os dados apresentam que, no caso do clientes que pagam abaixo da mediana de gastos apresentam um churn bem menor quanto aos de alto gasto. Logo, duas existe uma probalilidade de que os valores de mensalidade e/ou qualidade dos produtos não estão conseguindo competir com a concorrencia.</p>
 
 ### <b>2. Conclusões da Segunda hipótese</b>
-<p align="justify">NA Segunda Hipótese tem como foco os produtos. A empresa oferta dois três de serviços, sendo elas, linhas telefônicas, serviços de Internet DSL e Internet Fibra Otica. Será analisado para cada serviço (e os produtos que englobam) a quantidade de churn e verificar se, existe alguma relação entre o tipo de serviço e as características dos clientes, com um foco, em especial, a idade (Cidadão Senior).
-
+<p align="justify">NA Segunda Hipótese tem como foco os produtos. A empresa oferta dois três de serviços, sendo elas, linhas telefônicas, serviços de Internet DSL e Internet Fibra Otica. Será analisado para cada serviço (e os produtos que englobam) a quantidade de churn e verificar se, existe alguma relação entre o tipo de serviço e as características dos clientes, com um foco, em especial, a idade (Cidadão Senior).<br>
 Primeiramente foi verificado se há relação de churn entre os serviços ofertados, e ficou claro que a quantidade de clientes esta muito concentrada no serviço de tecnologia e menos na internet DSL, observe:</p>
 
 <p align="center"><b>Telefonia (90.3%) > Internet Fibra Optica (44%) > Internet DSL (34.4%)</b></p>
 
-Em seguida foi verificado se há relação entre os produtos e o churn, nesse caso quantidade de churn se concentra mais na internet de fibra optica e há pouca quantidade no serviço de internet DSL. Os dados seguem a ordem de:
+<p align="justify">Em seguida foi verificado se há relação entre os produtos e o churn, nesse caso quantidade de churn se concentra mais na internet de fibra optica e há pouca quantidade no serviço de internet DSL. Os dados seguem a ordem de:</p>
 
 <p align="center"><b>Internet Fibra Optica (41.9%) > Telefonia (27.1%) > Internet DSL(19%) < </b></p>
 
-Por fim, foi verificado se há relação entre os sub-produtos e o churn, e foi criado o seguinte grafico sunburt, para relacionar o churn desses produtos e a porcentagem que os subprodutos representam desse churn. O comportamento observado foi:
+<p align="justify">Por fim, foi verificado se há relação entre os sub-produtos e o churn, e foi criado o seguinte grafico sunburt, para relacionar o churn desses produtos e a porcentagem que os subprodutos representam desse churn. O comportamento observado foi:</p>
 
 ![newplot](https://user-images.githubusercontent.com/105402331/197405717-5f19a677-e62a-47a6-beea-29a14ddb2d74.png)
 
 <p align="justify"> Quanto aos sub-produtos da Telefônia, o serviço de telefônia possui apenas o sub-produto Multiplas Linhas que apresenta menos da metade do churn deste produto. Já em relação aos sub-produtos da Internet, os serviços relacionados ao StremingTV (tv a cabo) e Streming Filmes possuem grande taxa de churn. Proteção de Dispositivos e Backup online também apresentam uma quantidade consideravel de churn Suporte Técnico e Segurança Online possuem a menor quantidade de churn.</p>
 
 ### <b>3. Conclusões da Terceira hipótese</b>
-Foi analisado principalmente a coluna de ternure, e foi idenficado, primeramente, que no histograma o ternure não há normalidade, ou seja, a distribuição do tempo de contratação esta concentrada nos extremos, nesse caso, há uma grande quantidade de clientes com tempo de contratação 0 e acima de 65, observe: 
+<p align="justify">Foi analisado principalmente a coluna de ternure, e foi idenficado, primeramente, que no histograma o ternure não há normalidade, ou seja, a distribuição do tempo de contratação esta concentrada nos extremos, nesse caso, há uma grande quantidade de clientes com tempo de contratação 0 e acima de 65, observe:</p> 
 
 ![image](https://user-images.githubusercontent.com/105402331/197406316-d8d4a539-0480-4108-a3a4-f8a829b17d24.png)
 
@@ -122,26 +119,27 @@ Logo, faz sentido identificar se esse comportamento vem da evasão, relacionado 
 
 ![image](https://user-images.githubusercontent.com/105402331/197406499-f604ed7f-571f-4424-b6cf-640e5931f9e6.png)
 
-A partir desse dados, se infere que o churn está muito concentrado em quem possui 10 ou menos tempo de contrato, o que explica o comportamento identificado pelo histograma. Uma razão para esta questão é a de que pode ter a ver com a qualidade dos produtos ou a expectativa que os clientes tinham do produto. Alguns dados que poderiam ser relacionados seria a de relação do perfil dos clientes com esse fator, por exemplo, foi identificado que há uma quantidade de Idosos maior e que, em geral, possuem necessidades mais basicas quanto a intenet e uso de telefone. Deste modo, será analisar os dados já considerando esses perfils e traçar algumas razões para esse quadro.
+<p align="justify">A partir desse dados, se infere que o churn está muito concentrado em quem possui 10 ou menos tempo de contrato, o que explica o comportamento identificado pelo histograma. Uma razão para esta questão é a de que pode ter a ver com a qualidade dos produtos ou a expectativa que os clientes tinham do produto. Alguns dados que poderiam ser relacionados seria a de relação do perfil dos clientes com esse fator, por exemplo, foi identificado que há uma quantidade de Idosos maior e que, em geral, possuem necessidades mais basicas quanto a intenet e uso de telefone. Deste modo, será analisar os dados já considerando esses perfils e traçar algumas razões para esse quadro.</p>
 
 ![image](https://user-images.githubusercontent.com/105402331/197406569-971aff8e-9310-4e5b-bdf5-26748184d959.png)
 
-A partir do grafico pode-se dizer que pessoas que não possuem dependentes e estão solteiras, tendem a ser mais jovens, este fato somado com o fato do churn desta faixa etária ser elevado (assim como a quantidade abaixo de 10 de ternure) indicam que os serviços ofertados podem não serem capazes de suprirem está faixa étaria.
-Também se pode fazer um argumento de que há uma quantidade, pequena, mas relevante de novos clientes idosos que estão evadindo. O que pode nos informar que não há uma evasão forte de clientes idosos com ternure alto por acomodação dessa população ao seriço contratato.
+<p align="justify">A partir do grafico pode-se dizer que pessoas que não possuem dependentes e estão solteiras, tendem a ser mais jovens, este fato somado com o fato do churn desta faixa etária ser elevado (assim como a quantidade abaixo de 10 de ternure) indicam que os serviços ofertados podem não serem capazes de suprirem está faixa étaria.Também se pode fazer um argumento de que há uma quantidade, pequena, mas relevante de novos clientes idosos que estão evadindo. O que pode nos informar que não há uma evasão forte de clientes idosos com ternure alto por acomodação dessa população ao seriço contratato.</p>
 
 ### <b>4. Conclusões da análise exploratória de dados (EDA)</b>
-Em suma, a evasão parece estar concetrada entre os primeiros meses de contrato dos clientes, e que em geral, apresentam um perfil predominantente jovens e solteiros, sem dependetentes, indicando que os produtos ofertados não estão sendo suficientes para suprir a necessidade dessa parcela da população.
-Entre os produtos ofertados a fibra optica é a que mais possui churn relativo (quantidade de clientes/churn), visto que no mercado a procura desse tipo de produto esta em alta pode indicar um sério problema de qualidade nesse produto e na sua competitividade com os concorrentes. Nessa linha, os sub-produtos de internet, apresentaram uma quantidade grande de churn relevantes, em especial os relacionados ao serviço de streming, que também são serviços de alta procura, levando a conclusão de que a competitivdade destes também está baixa.
-Conclui-se que a melhor forma para minimizar a evasão de clientes na Alura Voz é ter um modelo treinado que vai classificar clientes como potenciais pessoas a deixar a empresa de modo, a auxiliar a equipe de vendas. Dessa forma, o proximo relatório tera como foco a contrução desses modelos.
+<p align="justify">Em suma, a evasão parece estar concetrada entre os primeiros meses de contrato dos clientes, e que em geral, apresentam um perfil predominantente jovens e solteiros, sem dependetentes, indicando que os produtos ofertados não estão sendo suficientes para suprir a necessidade dessa parcela da população.
+Entre os produtos ofertados a fibra optica é a que mais possui churn relativo (quantidade de clientes/churn), visto que no mercado a procura desse tipo de produto esta em alta pode indicar um sério problema de qualidade nesse produto e na sua competitividade com os concorrentes. Nessa linha, os sub-produtos de internet, apresentaram uma quantidade grande de churn relevantes, em especial os relacionados ao serviço de streming, que também são serviços de alta procura, levando a conclusão de que a competitivdade destes também está baixa.<br>
+Conclui-se que a melhor forma para minimizar a evasão de clientes na Alura Voz é ter um modelo treinado que vai classificar clientes como potenciais pessoas a deixar a empresa de modo, a auxiliar a equipe de vendas. Dessa forma, o proximo relatório tera como foco a contrução desses modelos.</p>
 
 ### <i>📡 Modelagem de Dados</i>
-Os seguintes passos realizados para a criação do modelo
+Os seguintes passos realizados para a criação do modelo:
+
 * <b>Balanceando os Dados:</b> Ao se analizar a variavel target (churn) é possivel notar que nos dados existe uma quantidade desbalanceada de clientes que não evadiram para os que evadiram
 * <b>Criando Dummy Classifier:</b> Para poder realmente entender e melhorar o desempenho do nosso modelo, primeiro precisamos estabelecer uma linha de base para os dados que temos.
 * Foram treinados três modelos com diferentes algoritomos para identificar o que melhor se enquadra para os dados usados, foram eles: <b>SVC</b>, <b>Arvore de decisão</b> e <b>Random Forest</b>.
 * Apos a comparação foi definido que o modelo de Random Forest teve melhor desempenho.
 * <b>Otimizando o modelo Random Forest</b> utilizando o método RandomizedSearchCV, e apos encontrar os melhores paramêtros utilizando atributo .best_params_ criar um novo modelo melhorado.
-* As sehuintes hipoteses foram determinadas a partir do modelo: 
+
+As seguintes hipoteses foram determinadas a partir do modelo: 
 
 ### <i>📡 Dashboard</i>
 
@@ -171,3 +169,6 @@ Cabe destacar ainda que Lorem ipsum dolor sit amet.
 <p align="center">
  <a href='https://www.linkedin.com/public-profile'><img src='https://cdn-icons-png.flaticon.com/512/174/174857.png' height=20px></a> <a href='https://www.kaggle.com/ccfreitas'><img src='https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/189_Kaggle_logo_logos-512.png' height=20px></a>
 </p>
+
+
+
