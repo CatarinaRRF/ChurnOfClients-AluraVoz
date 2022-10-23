@@ -10,7 +10,7 @@
 
 <p align="center">
     <a href="">
-    <img src="https://img.shields.io/github/last-commit/CatarinaRRF/Challenge-Alura-Cash-19-08-22?color=informational&style=flat-square"
+    <img src="https://img.shields.io/github/last-commit/CatarinaRRF/Churn_Alura_Voz?color=informational&style=flat-square"
          alt="GitHub last commit">
     <a href="https://github.com/CatarinaRRF/Challenge-Alura-Cash-19-08-22">
     <img src= http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=green&style=flat-square >
